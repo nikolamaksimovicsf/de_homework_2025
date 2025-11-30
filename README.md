@@ -78,9 +78,9 @@ Since dbs notebook cell outputs can't be displayed here, I will also display ans
 ### question 5e: Would you recommend accepting payments in installments? Assume a credit default rate of 22.9% per month. For this question, consider the “installments” header in the historical transactions and the impact it may have, if any, on merchant sales (merchant sales in terms of purchase_amounts). We are making a simplistic assumption that 25% of sales is gross profit to merchants, there are equal installments and everyone who defaulted did so after making half payment.
 #### answer 5e: looking at the results, we should NOT accept installments, and it's because we are expected to take a profit loss on average, and also there doesn't seem to be any noticeable improvements in sales when installments are used as an option: _average cash order: 20105_ vs _average installment order: 20100_
 
-Average cash order: 20105.8
-Average installment order: 20100.1
+Average cash order: _20105.8_
+Average installment order: _20100.1_
 
-Avg installment duration: 3.7 months
-Expected profit (Cash): 5026.5
-Expected profit (Installments): -1181.1
+Avg installment duration: _3.7 months_
+Expected profit (Cash): _5026.5_
+Expected profit (Installments): _-1181.1_
