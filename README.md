@@ -79,8 +79,12 @@ Since dbs notebook cell outputs can't be displayed here, I will also display ans
 #### answer 5e: looking at the results, we should NOT accept installments, and it's because we are expected to take a profit loss on average, and also there doesn't seem to be any noticeable improvements in sales when installments are used as an option: _average cash order: 20105_ vs _average installment order: 20100_
 
 Average cash order: _20105.8_
+
 Average installment order: _20100.1_
 
+
 Avg installment duration: _3.7 months_
+
 Expected profit (Cash): _5026.5_
+
 Expected profit (Installments): _-1181.1_
