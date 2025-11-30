@@ -22,7 +22,7 @@ Since files (_merchants.csv_ and _historical_transactions.parquet_) needed for t
 Cleaning focus is done mainly on merchant data since this data is complementary to the transactions table, and duplications and inconsistent values in this dimension can cause issues later for the transaction table once both are joined.
 Cleaning consists of the following steps:
 1. finding duplicate merchant _id's and unifying them into one value (all rows with the same value are persisted, and others are removed since there is no way to determine which value is correct)
-2. replacing nulls with 'Unknown' categories
+2. replacing nulls with 'Unknown' as category
 3. fixing merchant_name (if value is null, it should copy merhcnant_id value, if this is still null, then 'Unknown' value is applied)
 4. creating new _calc_ columns that unify inconsistent values for the same _merchant_id_
 5. parsing purchase_date into separate columns that are needed later in analysis (month, year, year_month and hour)
