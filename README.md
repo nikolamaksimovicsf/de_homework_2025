@@ -36,6 +36,8 @@ These URL strings for both files will be sent in an email, together with this gi
 This notebook is cleaner and more prepared to display answers to the asked questions, along with the steps I took to calculate them.
 Since dbs notebook cell outputs can't be displayed here, I will also display answers here (with attached results).
 
+**Note**: _Unknown_ and _-1_ values for categories and cities are ignored in calculations since there is no way to know if _Unknown_ is one category or multiple. 
+
 ### question 1: Generate the top 5 merchants by purchase_amount for each month in the dataset for each city in the dataset?
 #### answer 1: see attached file for results 
 [q1_answer.csv](https://github.com/user-attachments/files/23841296/q1_answer.csv)
